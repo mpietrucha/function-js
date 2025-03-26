@@ -1,4 +1,4 @@
-import { useConfirm, useNegate } from '@/transform'
+import { useConfirm, useNegate } from '@/boolean'
 import { isFunction } from 'lodash-es'
 
 export const is = useConfirm(isFunction)
